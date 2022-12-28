@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML.md",
+                "file": "Angular.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML.md",
+                "file": "Angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML.md",
+                "file": "Angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML.md"
+                "file": "Angular.md"
               }
             }
           },
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,15 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10cff40de6bf2d20",
+  "active": "06cd96797850e85b",
   "lastOpenFiles": [
+    "HTML.md",
+    "JavaScript.md",
     "GIT.md",
     "DOTNET.md",
     "CSS.md",
-    "Angular.md",
     "Azure.md",
-    "JavaScript.md",
-    "HTML.md",
+    "Angular.md",
     "Programming Terms.md",
     "Terminal.md",
     "Python.md"

@@ -1,14 +1,13 @@
 (Github CLI Docs)[https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github]
 
-    git init -b main
-
-    git add . && git commit -m "initial commit"
-
-    gh repo create
 
 ```shell
+#Initialising
+git init -b main
+git add . && git commit -m "initial commit"
+gh repo create
+    
 #Configuration
-
 >> git config --global user.name "<UserName>"
 >> git config --global user.email "<Email>"
 
@@ -18,7 +17,6 @@
 
 #Committing
 >> git add .                                  #Stage all modified or new files
-
 >> git commit -m "<message>"                  #Commit with a message
 
 #Branches
@@ -29,8 +27,9 @@
 >> git checkout <commitHash>                  #Revert back to a previous commit
 
 #Making Changes
-
 >> git merge <branch-to-merge-name>           #Merge a branch with this one
 >> git pull --all                             #Get all new changes, merges remote file changes into the local repo
 >> git push origin main                       #Push committed changes (for everyone else)
 ```
+
+Git Rebase 
