@@ -11,11 +11,9 @@
             "id": "06cd96797850e85b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Angular.md",
-                "mode": "source",
-                "source": false
+                "file": "SQL Cheatsheet.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular.md",
+                "file": "SQL Cheatsheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular.md",
+                "file": "SQL Cheatsheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular.md"
+                "file": "SQL Cheatsheet.pdf"
               }
             }
           },
@@ -156,15 +154,15 @@
   },
   "active": "06cd96797850e85b",
   "lastOpenFiles": [
-    "HTML.md",
-    "JavaScript.md",
-    "GIT.md",
+    "sql-basics-cheat-sheet-a3.pdf",
+    "C# Cheat Sheet 1.pdf",
+    "C# Cheat Sheet.pdf",
     "DOTNET.md",
-    "CSS.md",
-    "Azure.md",
+    "C.md",
     "Angular.md",
-    "Programming Terms.md",
-    "Terminal.md",
-    "Python.md"
+    "Azure.md",
+    "CSS.md",
+    "SQL.md",
+    "TypeScript.md"
   ]
 }
