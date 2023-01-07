@@ -1,14 +1,14 @@
 import sys
 
-import time #Used for runtime calculations
+import time Used for runtime calculations
 
 from numpy import random
 
 import numpy as np
 
-#Visualise these https://visualgo.net/en
+Visualise these https://visualgo.net/en
 
-#Documentation for each language https://www.geeksforgeeks.org/binary-search/?ref=lbp
+Documentation for each language https://www.geeksforgeeks.org/binary-search/?ref=lbp
 
   
 

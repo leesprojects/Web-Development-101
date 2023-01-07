@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7a25fed9b5a2419",
+        "id": "692e916b7de22e4a",
         "type": "tabs",
         "children": [
           {
-            "id": "06cd96797850e85b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Angular - Udemy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95c5ea7685071f04",
+            "id": "d0f112b4f060b8fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Typescript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,17 +154,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca3516bef92f1cb6",
+  "active": "7bdd59b481efaf37",
   "lastOpenFiles": [
-    "Angular - Glossary.md",
+    "___TAG-FINDER.md",
+    "sql-basics-cheat-sheet-a3.pdf.md",
     "Angular - Udemy.md",
+    "Angular - Glossary.md",
+    "Python.md",
     "SQL Cheatsheet.pdf",
     "sql-basics-cheat-sheet-a3.pdf",
     "C# Cheat Sheet 1.pdf",
     "C# Cheat Sheet.pdf",
-    "DOTNET.md",
-    "C.md",
-    "Azure.md",
-    "CSS.md"
+    "DOTNET.md"
   ]
 }
