@@ -2,6 +2,8 @@
 
 Attribute Directive - A type of directive that can listen to and modify HTML elements, attributes, properties and components.
 
+Bootstrap - To run a program
+
 Binding - Assigning a value to a variable or property, usually a variable to a DOM object
 
 Class Decorators - Immediately before a class definition, declaring the class to be given a type and provides suitable metadata. E.g. `@Component(), @Directive(), @Pipe(), @Injectable() and @NgModule()``
@@ -56,3 +58,6 @@ Lazy Loading - A process speeding up loading time by splitting the application i
 ngc - The TypeScript to JavaScript transpiler that processes angular decorators, metadata and templates emitting JavaScript code
 
 Observable - 
+
+Template - HTML code which is to be rendered e.g. index.html
+
