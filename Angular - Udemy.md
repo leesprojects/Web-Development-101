@@ -181,6 +181,7 @@ Attribute directives can only change the element itself.
 <!-- '#' represents a local -->
 ```
 
+### `[ngStyle]`
 #ngStyle #AtttributeDirective 
 Allows dynamic CSS styling
 ```HTML
@@ -194,7 +195,7 @@ Allows dynamic CSS styling
 	}
 ```
 
-NgClass
+### `[ngClass]`
 #ngClass #AtttributeDirective
 Allows dynamic CSS classes
 ```ts
@@ -209,3 +210,46 @@ Allows dynamic CSS classes
 	color: green;
 }
 ```
+
+### `*ngFor`
+#ngFor #AtttributeDirective 
+```HTML
+<p *ngFor="let page of pages"></p> <!-- Creates a <p> for each page -->
+<ui-card *ngFor="let card of cards"></ui-card> <!-- Creates several components -->
+```
+
+Finding the indexes for each element of an #ngFor
+```HTML
+<ui-card *ngFor="let card of cards: let i = index"
+	[ngStyle]="backgroundColor: i <= 3 ? 'lightblue : 'transparent'">		
+
+</ui-card>
+<!-- index is a reserved property for *ngFor -->
+```
+
+## Decorators
+
+### `@Input()`
+#Input #Alias
+```TS
+@Input() elementStructure: { name: string, type: string }; //[elementStructure]=""
+@Input('element') elementStructure: { name: string, type: string }; //[element]=""
+//Instead of using [elementStructure] to provide a value, you now use an Alias instead 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+## Debugging
+#SourceMaps
+Sourcemaps allow the browser to read in main.bundle.js which contains all components, modules etc... and then display it as the source formatting i.e. app.component.ts
+The quickest way to use this is by opening F12/Sources/webpack://./src/app
+Adding a breakpoint into that code will show the local properties and their values at the time of the breakpoint

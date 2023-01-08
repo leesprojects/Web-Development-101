@@ -43,12 +43,20 @@
             }
           },
           {
+            "id": "091146f272bfc801",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "2a26bfd83b3c6dc6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Typescript",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -76,49 +85,9 @@
     "type": "split",
     "children": [
       {
-        "id": "a05c1d77d174c9f3",
+        "id": "3fa6f728d1ce2627",
         "type": "tabs",
         "children": [
-          {
-            "id": "726dc1ca11807e46",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Angular - Udemy.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "736cfe8538b74bcd",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Angular - Udemy.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "7bdd59b481efaf37",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
           {
             "id": "10cff40de6bf2d20",
             "type": "leaf",
@@ -128,17 +97,25 @@
                 "file": "Angular - Udemy.md"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "8caa38657c790d08",
+        "type": "tabs",
+        "children": [
           {
-            "id": "091146f272bfc801",
+            "id": "7bdd59b481efaf37",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,17 +131,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bdd59b481efaf37",
+  "active": "091146f272bfc801",
   "lastOpenFiles": [
+    "TypeScript.md",
+    "Angular - Glossary.md",
+    "Angular - Udemy.md",
     "___TAG-FINDER.md",
     "sql-basics-cheat-sheet-a3.pdf.md",
-    "Angular - Udemy.md",
-    "Angular - Glossary.md",
     "Python.md",
     "SQL Cheatsheet.pdf",
     "sql-basics-cheat-sheet-a3.pdf",
     "C# Cheat Sheet 1.pdf",
-    "C# Cheat Sheet.pdf",
-    "DOTNET.md"
+    "C# Cheat Sheet.pdf"
   ]
 }
