@@ -12,7 +12,7 @@ Documentation for each language https://www.geeksforgeeks.org/binary-search/?ref
 
   
 
-####SORTING ALGORITHMS#####
+### SORTING ALGORITHMS
 
   
 ```python

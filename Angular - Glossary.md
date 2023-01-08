@@ -6,6 +6,8 @@ Bootstrap - To run a program
 
 Binding - Assigning a value to a variable or property, usually a variable to a DOM object
 
+Callback - When a function is passed as an argument into another function.
+
 Class Decorators - Immediately before a class definition, declaring the class to be given a type and provides suitable metadata. E.g. `@Component(), @Directive(), @Pipe(), @Injectable() and @NgModule()``
 
 Class Field Decorator - A decarator statement immediately before a  field in a class declaring it's type e.g. `@Input` and `@Output`

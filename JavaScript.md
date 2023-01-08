@@ -1,9 +1,87 @@
-JavaScript
+#JavaScript 
+![[JavaScript Cheatsheet.pdf]]
 
-  
+## Event Loop
+#EventLoop
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Event Loop by Mozilla</a>
+Javascript has a runtime model based on an event loop responsible for executing the code, collecting and processing events and executing queued sub-tasks. 
+
+![[JS Event Loop.png]]
+
+### Stacks
+When a function is called, a frame is created with the associated arguments and local variables and is added to a (First In, Last Out) stack. Any nested function calls will then create additional frames pushed into the stack meaning that nested functions are executed first, and work their way up to the parent function.
+
+```js
+function foo(b) {
+  const a = 10;
+  return a + b + 11;
+}
+
+function bar(x) {
+  const y = 3;
+  return foo(x * y);
+}
+
+const baz = bar(7); // assigns 42 to baz
+
+//Push Frame 1: Call bar(7)
+//Push Frame 2: bar(7) calls foo(21)
+//Pop Frame 2 : foo() returns 42 to bar()
+//Pop Frame 1 : bar() returns 42 to property baz as an assignment
+```
+
+### Heaps
+A heap is where Objects are allocated a mostly unstructured region of memory.
+
+### Queues
+JavaScript runtime uses a message queue, each message has an associated function which is called ot handle the message. The queue one started, will continue until there are no more messages.
+When the queue is ready to process, it starts from the oldest message (First In, First Out) creating a stack frame for each message calling a function using the message as a parameter.
+
+```js
+//Typical event loop implementation
+while (queue.waitForMessage()) { //Queue is processed synchronously
+  queue.processNextMessage();
+}
+```
+
+#### "Run-to-completion"
+The queue must fully process and complete a message before continuing. This is different from other languages like C where if a function runs within a thread, it can be paused so another piece of code can be run before it finishes.
+The downside to it being a synchronous queue system is that if a message takes too long to complete it can severely reduce performance.
+
+setTimeout takes in two parameters, (message, duration) where duration is actually the minimum amount of time needed for completion. Any delays indicate the minimum time for completion, and is never a guarantee. It still needs to process the item in the queue first.
+
+```js
+(() => {
+
+  console.log('this is the start');
+
+  setTimeout(() => {
+    console.log('Callback 1: this is a msg from call back');
+  }); // has a default time value of 0
+
+  console.log('this is just a message');
+
+  setTimeout(() => {
+    console.log('Callback 2: this is a msg from call back');
+  }, 0);
+
+  console.log('this is the end');
+
+})();
+
+// "this is the start"
+// "this is just a message"
+// "this is the end"
+// "Callback 1: this is a msg from call back"
+// "Callback 2: this is a msg from call back"
+```
+
+### 'Never blocking'
+The event loop has a property where the application is waiting for an IndexedDB query or XHR to return, it can still process other things such as I/O
+
+## Syntax
 
 ```javascript
-
 //Strings
 const str = "Hello, World!";
 

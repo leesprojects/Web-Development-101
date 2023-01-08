@@ -103,7 +103,7 @@ One-Way: HTML interacting with TypeScript
 
 <!--Using [] allows Angular to interact with the DOM-->
 <button
-	class="btn btn-primary" [disabled]="!isDisabled"> <!--bind disabled to isDisabled-->
+	class="btn btn-primary" [disabled]="isDisabled"> <!--bind disabled to isDisabled-->
 	Press Me
 </button>
 
@@ -167,11 +167,13 @@ pageName = "Initial Page Name" //This variable will automatically update from in
 Directives are DOM instructions
 Components are directives but with a template
 Structural directives can add or remove elements from the DOM
-Attribute directives can only change the element itself.
+Attribute directives can only change the element within the DOM
 
 #NgIf #StructuralDirective
 ```HTML
-<p *ngIf="showParagraph; else dontShow">This code only shows if the property showParagraph is true</p>
+<p *ngIf="showParagraph; else dontShow">
+This code only shows if the property showParagraph is true
+</p>
 <!-- *ngIf uses an '*' because it's a structural directive -->
 <!-- If false then that element is removed from the DOM entirely -->
 
