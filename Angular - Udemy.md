@@ -214,7 +214,7 @@ Allows dynamic CSS classes
 ```
 
 ### `*ngFor`
-#ngFor #AtttributeDirective 
+#ngFor #StructuralDirective
 ```HTML
 <p *ngFor="let page of pages"></p> <!-- Creates a <p> for each page -->
 <ui-card *ngFor="let card of cards"></ui-card> <!-- Creates several components -->
@@ -240,15 +240,181 @@ Finding the indexes for each element of an #ngFor
 ```
 
 
+##  RxJS
+#RxJS is a library for asynchronous and event-based programs using observable sequences.
+
+```JS
+//Default JavaScript
+document.addEventListener('click', () => console.log('Clicked!'));
+
+//RxJS
+fromEvent(document, 'click') //Takes a DOM element and an event listener
+.subscribe(() => console.log('Clicked!'));
+```
+
+### Purity
+```JS
+//Default JavaScript - Impure
+let count = 0;
+document.addEventListener('click', () => console.log(`Clicked ${++count} times`));
+
+//RxJS - Pure
+fromEvent(document, 'click')
+  .pipe(scan((count) => count + 1, 0))
+  .subscribe((count) => console.log(`Clicked ${count} times`));
+
+//scan() is the RxJS equivilent of JS's reduce()
+```
+
+### Flow
+```JS
+//This function limits the users input of clicks to be limited to once per second
+
+//Default JavaScript
+let count = 0;
+let rate = 1000;
+let lastClick = Date.now() - rate;
+document.addEventListener('click', () => {
+  if (Date.now() - lastClick >= rate) {
+    console.log(`Clicked ${++count} times`);
+    lastClick = Date.now();
+  }
+});
+
+//RxJS FLOW
+fromEvent(document, 'click')
+  .pipe(
+    throttleTime(1000),
+    scan((count) => count + 1, 0)
+  )
+  .subscribe((count) => console.log(`Clicked ${count} times`));
+```
+
+### Flow Control Operators
+```JS
+filter
+delay
+debounceTime
+take
+takeUntil
+distinct
+distinctUntilCharged
+```
+
+### Values
+```JS
+//Default JavaScript
+let count = 0;
+const rate = 1000;
+let lastClick = Date.now() - rate;
+document.addEventListener('click', (event) => {
+  if (Date.now() - lastClick >= rate) {
+    count += event.clientX;
+    console.log(count);
+    lastClick = Date.now();
+  }
+});
+
+//RxJS Value usage
+fromEvent(document, 'click')
+  .pipe(
+    throttleTime(1000),
+    map((event) => event.clientX),
+    scan((count, clientX) => count + clientX, 0)
+  )
+  .subscribe((count) => console.log(count));
+```
+
+### Observables
+[Observables](https://angular.io/guide/observables) are lazy-push collections of multiple values
+
+|  | Single | Multiple |
+| - | - | -| 
+| Pull | Functions | Iterators |
+| Push | Promises | Observables |
+
+To invoke an observable, it needs to be subscribed to
+
+### Subscriptions
+[Subscriptions](https://angular.io/guide/observables#subscribing) are needed to initialising an instance of an Observable
+```JS
+const observable = new Observable((subscriber) => {
+  subscriber.next(1);
+  subscriber.next(2);
+  subscriber.next(3);
+  setTimeout(() => {
+    subscriber.next(4);
+    subscriber.complete();
+  }, 1000);
+});
+
+console.log('just before subscribe');
+observable.subscribe({
+  next(x) {
+    console.log('got value ' + x);
+  },
+  error(err) {
+    console.error('something wrong occurred: ' + err);
+  },
+  complete() {
+    console.log('done');
+  },
+});
+console.log('just after subscribe');
 
 
+//Console Logs
+>>just before subscribe
+>>got value 1
+>>got value 2
+>>got value 3
+>>just after subscribe
+>>got value 4
+>>done
+```
+
+### Pipes
 
 
+## JavaScript - Asynchronous Programming
 
+### Callbacks
+A **Callback** function is a function which is passed into another function with the expectation that the callback will be called at the appropriate time. It is a form of asynchronous programming native to JavaScript. The drawback is that it can quickly descend into 'callback-hell'.
 
+```JS
+//This example uses JavaScripts native callbacks and event listeners
+function doStep1(init, callback) {
+  const result = init + 1;
+  callback(result);
+}
 
+function doStep2(init, callback) {
+  const result = init + 2;
+  callback(result);
+}
 
+function doStep3(init, callback) {
+  const result = init + 3;
+  callback(result);
+}
 
+//This is known as 'Callback-hell' as it's difficult to debug as an error can be at any nested level within the function instead of only at the top level of doOperation()
+function doOperation() {
+  doStep1(0, (result1) => {
+    doStep2(result1, (result2) => {
+      doStep3(result2, (result3) => {
+        console.log(`result: ${result3}`);
+      });
+    });
+  });
+}
+
+doOperation();
+```
+
+### Promises
+A [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#description) is a proxy for a value which may be unknown on creation of the promise. Handlers can be attached to either the 'fulfilled' or 'rejected' response. Promises can hold one of three states: 1. Pending, 2. Fulfilled, 3. Unfulfilled. When a promise is either fulfilled or unfulfilled, it's deemed 'resolved' and can no longer have any state changes.
+![[Pasted image 20230114221352.png]]
 
 ## Debugging
 #SourceMaps

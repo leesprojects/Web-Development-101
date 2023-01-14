@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5db10e391dffe17f",
+        "id": "97abad1d6917baae",
         "type": "tabs",
         "children": [
           {
-            "id": "c545598df838ae1a",
+            "id": "b8caa32dfbf6a0c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,15 +156,15 @@
   },
   "active": "091146f272bfc801",
   "lastOpenFiles": [
+    "Angular - Udemy.md",
+    "Cheatsheets/SQL Cheatsheet.pdf",
     "Angular - Glossary.md",
     "JavaScript.md",
     "SQL.md",
-    "Angular - Udemy.md",
     "Programming Terms.md",
     "Postman.md",
     "Attachments/JS Event Loop.png",
     "Azure.md",
-    "Cheatsheets/C# Cheat Sheet.pdf",
-    "Cheatsheets/CSS Cheatsheet.pdf"
+    "Cheatsheets/C# Cheat Sheet.pdf"
   ]
 }
