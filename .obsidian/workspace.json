@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97abad1d6917baae",
+        "id": "4258f5594c487c85",
         "type": "tabs",
         "children": [
           {
-            "id": "b8caa32dfbf6a0c4",
+            "id": "4cc6ee5c82b15eea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular - Udemy.md",
+                "file": "ASP.NET.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular - Udemy.md"
+                "file": "ASP.NET.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular - Udemy.md",
+                "file": "ASP.NET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular - Udemy.md",
+                "file": "ASP.NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,6 +156,8 @@
   },
   "active": "091146f272bfc801",
   "lastOpenFiles": [
+    "C.md",
+    "ASP.NET.md",
     "Angular - Udemy.md",
     "Cheatsheets/SQL Cheatsheet.pdf",
     "Angular - Glossary.md",
@@ -163,8 +165,6 @@
     "SQL.md",
     "Programming Terms.md",
     "Postman.md",
-    "Attachments/JS Event Loop.png",
-    "Azure.md",
-    "Cheatsheets/C# Cheat Sheet.pdf"
+    "Attachments/JS Event Loop.png"
   ]
 }

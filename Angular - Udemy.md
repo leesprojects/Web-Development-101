@@ -333,10 +333,10 @@ fromEvent(document, 'click')
 | Pull | Functions | Iterators |
 | Push | Promises | Observables |
 
-To invoke an observable, it needs to be subscribed to
+To invoke an observable, it needs to be subscribed to. Some types of observables are automatically stopped after execution such as a HTTP GET request, however, other types will need to be manuallly stopped or otherwise they will result in memory leaks.
 
 ### Subscriptions
-[Subscriptions](https://angular.io/guide/observables#subscribing) are needed to initialising an instance of an Observable
+[Subscriptions](https://angular.io/guide/observables#subscribing) are needed for initialising an instance of an Observable
 ```JS
 const observable = new Observable((subscriber) => {
   subscriber.next(1);
@@ -371,6 +371,47 @@ console.log('just after subscribe');
 >>just after subscribe
 >>got value 4
 >>done
+```
+
+Subscription with an unsubscription preventing memory leaks.
+```TS
+//CORRECT USE OF OBSERVABLES
+//Subscription which unsubscribes when the component is destroyed
+private countToInfinitySubscription;
+
+constructor() {}
+
+ngOnInit() {
+	this.countToInfinitySubscription = interval(1000).subscribe(count => {
+	console.log(count);
+	})
+}
+
+ngOnDestroy(): void {
+	this.countToInfinitySubscription.unsubscribe(); //Prevents memory leaks
+}
+
+//INCORRECT USE OF OBSERVABLES
+//Subscription without an unsubscriber allowing memory leaks
+ngOnInit() { //Exiting from this component DOESN't stop this subscription
+	interval(1000).subscribe(count => {
+		console.log(count);
+	})
+}
+```
+
+```TS
+//This HTTP GET observable is automatically unsubscribed from when completed
+getAnimals(){
+	this.http.get("https://localhost:5001/api/animals")
+	.subscribe({
+	  next: res => this.animals = res,
+	  error: err => console.log(err)
+});
+```
+
+```TS
+
 ```
 
 ### Pipes
