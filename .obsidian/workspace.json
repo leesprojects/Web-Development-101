@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "48808d3575a47557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASP.NET.md"
+                "file": "_Tools.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET.md",
+                "file": "_Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET.md",
+                "file": "_Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +169,8 @@
   },
   "active": "091146f272bfc801",
   "lastOpenFiles": [
-    "C.md",
     "ASP.NET.md",
+    "C.md",
     "Angular - Udemy.md",
     "Cheatsheets/SQL Cheatsheet.pdf",
     "Angular - Glossary.md",
