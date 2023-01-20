@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5db10e391dffe17f",
+        "id": "a7a25fed9b5a2419",
         "type": "tabs",
         "children": [
           {
-            "id": "c545598df838ae1a",
+            "id": "06cd96797850e85b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular - Udemy.md",
+                "file": "JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,20 +43,12 @@
             }
           },
           {
-            "id": "091146f272bfc801",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "2a26bfd83b3c6dc6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Bootstrap",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,16 +76,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3fa6f728d1ce2627",
+        "id": "a05c1d77d174c9f3",
         "type": "tabs",
         "children": [
           {
-            "id": "10cff40de6bf2d20",
+            "id": "726dc1ca11807e46",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "Angular - Udemy.md"
+                "file": "JavaScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "736cfe8538b74bcd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JavaScript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -110,35 +120,25 @@
             }
           },
           {
-            "id": "f55dd1d7847204a4",
+            "id": "10cff40de6bf2d20",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "Angular - Udemy.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "JavaScript.md"
               }
             }
           },
           {
-            "id": "f8511daf4613cc5b",
+            "id": "091146f272bfc801",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Angular - Udemy.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "git-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -154,17 +154,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "091146f272bfc801",
+  "active": "06cd96797850e85b",
   "lastOpenFiles": [
-    "Angular - Glossary.md",
-    "JavaScript.md",
-    "SQL.md",
     "Angular - Udemy.md",
-    "Programming Terms.md",
-    "Postman.md",
-    "Attachments/JS Event Loop.png",
+    "SQL Cheatsheet.pdf",
+    "sql-basics-cheat-sheet-a3.pdf",
+    "C# Cheat Sheet 1.pdf",
+    "C# Cheat Sheet.pdf",
+    "DOTNET.md",
+    "C.md",
+    "Angular.md",
     "Azure.md",
-    "Cheatsheets/C# Cheat Sheet.pdf",
-    "Cheatsheets/CSS Cheatsheet.pdf"
+    "CSS.md"
   ]
 }
