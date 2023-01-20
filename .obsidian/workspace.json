@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Tools.md"
+                "file": "ASP.NET.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Tools.md",
+                "file": "ASP.NET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Tools.md",
+                "file": "ASP.NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,6 +169,8 @@
   },
   "active": "091146f272bfc801",
   "lastOpenFiles": [
+    "CSS.md",
+    "_Projects and Ideas.md",
     "ASP.NET.md",
     "C.md",
     "Angular - Udemy.md",
@@ -176,8 +178,6 @@
     "Angular - Glossary.md",
     "JavaScript.md",
     "SQL.md",
-    "Programming Terms.md",
-    "Postman.md",
-    "Attachments/JS Event Loop.png"
+    "Programming Terms.md"
   ]
 }
