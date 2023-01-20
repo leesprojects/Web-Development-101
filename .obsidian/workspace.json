@@ -30,9 +30,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c4d4cef7ad56eeb",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ASP.NET.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ASP.NET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +153,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ASP.NET.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,17 +174,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "091146f272bfc801",
+  "active": "5c4d4cef7ad56eeb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "ASP.NET.md",
     "CSS.md",
     "_Projects and Ideas.md",
-    "ASP.NET.md",
     "C.md",
     "Angular - Udemy.md",
     "Cheatsheets/SQL Cheatsheet.pdf",
     "Angular - Glossary.md",
     "JavaScript.md",
-    "SQL.md",
-    "Programming Terms.md"
+    "SQL.md"
   ]
 }
