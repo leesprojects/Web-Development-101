@@ -23,27 +23,14 @@
             "id": "48808d3575a47557",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c4d4cef7ad56eeb",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Cheatsheets/CSS Flexbox.png"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cheatsheets/CSS Flexbox.png"
+              }
             }
           },
           {
@@ -137,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cheatsheets/CSS Flexbox.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cheatsheets/CSS Flexbox.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c4d4cef7ad56eeb",
+  "active": "091146f272bfc801",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "ASP.NET.md",
-    "CSS.md",
-    "_Projects and Ideas.md",
-    "C.md",
-    "Angular - Udemy.md",
     "Cheatsheets/SQL Cheatsheet.pdf",
-    "Angular - Glossary.md",
-    "JavaScript.md",
-    "SQL.md"
+    "Cheatsheets/CSS Cheatsheet.pdf",
+    "Cheatsheets/C# Cheat Sheet.pdf",
+    "Attachments/Pasted image 20230114221352.png",
+    "Attachments/Pasted image 20230114221400.png",
+    "Attachments/JS Event Loop.png",
+    "CSS.md",
+    "_Tools.md",
+    "conflict-files-obsidian-git.md",
+    "ASP.NET.md"
   ]
 }
