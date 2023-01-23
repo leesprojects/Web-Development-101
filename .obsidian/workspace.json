@@ -4,28 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "4258f5594c487c85",
+        "id": "2f574fb7188342d0",
         "type": "tabs",
         "children": [
           {
-            "id": "4cc6ee5c82b15eea",
+            "id": "8bb2ea63a45a20cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ASP.NET.md",
+                "file": "Angular - Udemy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "48808d3575a47557",
+            "id": "2abe7ab15e4771dd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Cheatsheets/CSS Flexbox.png"
+                "file": "Angular - ReactiveX RxJS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -105,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/CSS Flexbox.png"
+                "file": "Angular - ReactiveX RxJS.md"
               }
             }
           },
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/CSS Flexbox.png",
+                "file": "Angular - ReactiveX RxJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheets/CSS Flexbox.png",
+                "file": "Angular - ReactiveX RxJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,15 +169,15 @@
   },
   "active": "091146f272bfc801",
   "lastOpenFiles": [
+    "Angular - Udemy.md",
+    "JavaScript.md",
+    "GIT.md",
+    "Terminal.md",
+    "TypeScript.md",
+    "ASP.NET.md",
     "Cheatsheets/SQL Cheatsheet.pdf",
     "Cheatsheets/CSS Cheatsheet.pdf",
     "Cheatsheets/C# Cheat Sheet.pdf",
-    "Attachments/Pasted image 20230114221352.png",
-    "Attachments/Pasted image 20230114221400.png",
-    "Attachments/JS Event Loop.png",
-    "CSS.md",
-    "_Tools.md",
-    "conflict-files-obsidian-git.md",
-    "ASP.NET.md"
+    "Attachments/Pasted image 20230114221352.png"
   ]
 }
